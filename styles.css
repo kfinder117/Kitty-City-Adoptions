@@ -1,0 +1,21 @@
+.home-image {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.application-image {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    margin: 40px; /* Adjust the value as needed */
+}
+
+.center-text {
+    text-align: center;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitty City Adoptions</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+<body>
+    <img src="images/application-image.jpg" alt="Application Page Cat" class="application-image";>
+    <br>
+    <ul>
+          <li style="float:right"><a href="contact-us.html">Contact Us</a></li>
+          <li style="float:right"><a href="application.html">Application</a></li>
+          <li style="float:right"><a href="adopt-me.html">Adopt Me</a></li>
+          <li style="float:right"><a href="index.html">Home</a></li>
+</ul>
+<br>
+<form action="https://formspree.io/f/{form_id}" method="post">
+  <label for="name">Your Name</label><br>
+  <input name="Name" id="name" type="text">
+  <br>
+  <label for="date of birth">Date of Birth</label><br>
+  <input name="Date of Birth" id="date of birth" type="date">
+  <label for="email">Your Email</label><br>
+  <input name="Email" id="email" type="email">
+  <button type="submit">Submit</button>
+</form>
+</body>
+</html>
